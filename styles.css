@@ -46,6 +46,10 @@ h2 {
   margin: 0;
 }
 
+.highlighted-skill {
+  color: #ff79c6;
+}
+
 .links-container a {
   margin-right: 1em;
   font-size: 18px;
