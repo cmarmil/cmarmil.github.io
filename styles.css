@@ -34,6 +34,10 @@ body {
   padding: 2em;
 }
 
+.emoji {
+  -webkit-text-fill-color: initial;
+}
+
 .gradient-text {
   color: #ff79c6;
   background: linear-gradient(to right, #bd93f9 0%, #ff79c6 100%);
@@ -53,6 +57,10 @@ h2 {
 .links-container a {
   margin-right: 1em;
   font-size: 18px;
+}
+
+.small-text {
+  font-size: smaller;
 }
 
 .tech-h2,
