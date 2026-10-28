@@ -24,12 +24,6 @@ body {
   padding: 1em 3em;
 }
 
-@media screen and (min-width: 1024px) {
-  body {
-    max-width: 70%;
-  }
-}
-
 #nav {
   display: flex;
   gap: 1.5em;
@@ -39,4 +33,20 @@ body {
 
 #nav li {
   font-size: 1.5em;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  a {
+    position: static;
+  }
+  
+  #nav li {
+    font-size: 2em;
+  }
 }
