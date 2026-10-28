@@ -1,0 +1,42 @@
+a {
+  color: #a2c11c;
+  position: relative;
+}
+
+a:hover {
+  opacity: 1 !important;
+}
+
+a:hover::before {
+  background: linear-gradient(111.3deg, #fbf2d5 9.6%, #a2c11c 93.6%);
+  border-radius: 2px;
+  content: '';
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0 auto;
+  padding: 1em 3em;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 70%;
+  }
+}
+
+#nav {
+  display: flex;
+  gap: 1.5em;
+  list-style: none;
+  padding-left: 0;
+}
+
+#nav li {
+  font-size: 1.5em;
+}
